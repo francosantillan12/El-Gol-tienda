@@ -27,9 +27,7 @@
     width: 100%;
     z-index: 1000;
     background-color:#001d3dda;
-    max-width: 100%;  
-    padding-right: 1rem;
-    
+    max-width: 100%;    
 }
 
 .navbar-brand img{
