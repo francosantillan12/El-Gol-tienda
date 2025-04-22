@@ -16,9 +16,6 @@
     text-align:center ;
 }
 
-.body-info{
-    background-color: #001d3dda;   
-}
 
 
 .navbar{  
@@ -37,38 +34,46 @@
 
 .navbar-brand img{
     width: 70px;
-    height: auto;
-    justify-content: center;
-    
+
+}
+
+.carousel-item{
+    margin-top: 150px;
 }
 
 .navbar-nav{
     margin-right: 3rem;
 }
 
-
-.carousel-item{
-    margin-top: 150px;
+.navbar-nav li{
+    text-align: center;
 }
 
-
+.navbar-collapse {
+    background-color: #052241;
+}
 .section-camisetas{
     margin-top:8rem;
 }
 /**********************SECCION LOGIN********************/
 
-
+.body-info{
+    background-color: #001d3dda;   
+}
 
 
 .navbar-toggler-icon{
     display: inline-block;
-   
+    vertical-align: middle;
     width: 1.5rem;
     height: 1.5rem;
 }
 
 
-.navbar-toggler{  
+.navbar-toggler{
+    display: flex;
+    align-items: left;
+    border-radius: px;
     background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity));
 }
 
@@ -87,7 +92,7 @@
     margin-top: 2rem;   
 }
 
-/*****************BOTONES****************/
+
 .btn-outline-success{
     margin-top: 1rem;
 }
@@ -137,24 +142,19 @@
 
 .contenedor-maps{
     display: flex;
+    color: #f2e9e4;
     height:500px;
     flex-direction: column;
+    align-content: flex-end;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;       
+    flex-wrap: nowrap;    
 }
-
-.contenedor-maps iframe{
-    width: 100%;
-    height: auto;
-}
-
-
 
 
 
 .h3-opiniones{
-    padding: 600px;
+    background-color: #001d3d;
 }
 
 .opiniones{
@@ -226,6 +226,7 @@
     margin-right: 1rem;
     margin-left: 1rem;
     
+
 }
 
 
@@ -257,7 +258,6 @@ footer{
     grid-area: footer;
 }
 
-
-/**************************/
+/******************************************/
 
 
