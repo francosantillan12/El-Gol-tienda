@@ -27,7 +27,9 @@
     width: 100%;
     z-index: 1000;
     background-color:#001d3dda;
-    max-width: 100%;    
+    max-width: 100%;  
+    padding-right: 1rem;
+    
 }
 
 .navbar-brand img{
@@ -50,10 +52,6 @@
 .navbar-collapse {
     background-color: #052241;
 }
-
-
-
-
 .section-camisetas{
     margin-top:8rem;
 }
@@ -261,5 +259,7 @@ footer{
 }
 
 /******************************************/
+
+
 
 
