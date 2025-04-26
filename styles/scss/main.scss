@@ -1,265 +1,43 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.bg-primary{
-    background-color: rgb(10, 18, 129);
-}
-
-.h1-center{
-    text-align: center;
-}
-
-.h2-center{
-    text-align:center ;
-}
-
-
-
-.navbar{  
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-size: auto; 
-    width: 100%;
-    z-index: 1000;
-    background-color:#001d3dda;
-    max-width: 100%;  
-    padding-right: 1rem;
-    
-}
-
-.navbar-brand img{
-    width: 70px;
-
-}
-
-.carousel-item{
-    margin-top: 150px;
-}
-
-.navbar-nav{
-    margin-right: 3rem;
-}
-
-.navbar-nav li{
-    text-align: center;
-}
-
-.navbar-collapse {
-    background-color: #052241;
-}
-.section-camisetas{
-    margin-top:8rem;
-}
-/**********************SECCION LOGIN********************/
-
-.body-info{
-    background-color: #001d3dda;   
-}
-
-
-.navbar-toggler-icon{
-    display: inline-block;
-    vertical-align: middle;
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-
-.navbar-toggler{
-    display: flex;
-    align-items: left;
-    border-radius: px;
-    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity));
-}
-
-.navbar-toggler:checked + .collapse
-
-/***************SECCION CAMISETAS***********************/
-
-.tablas-talles{
-    display: flex;
-    justify-content: space-between;
-}
-
-.botones-camisetas{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2rem;   
-}
-
-
-.btn-outline-success{
-    margin-top: 1rem;
-}
-
-
-.body-general{
-    background-color: #001d3dda;
-}
-
-
-
-.card-body{
-    background-color:#001d3dda;
-}
+@import "./base/reset";
+@import "./layout/header";
+@import "./component/button";
+@import "./component/carousel";
+@import "./base/typography";
+@import "./layout/footer.scss";
+@import "./layout/forms";
+@import "./component/card";
 
 
 
 
 
-.list-group-item{
-    background-color:#001d3dda;
-}
-
-/***************SECCION CONTACTOS**********************/
 
 
-.h2-form{ 
-    margin: 50px 100px;
-    border-radius: 10px;
-    padding: 4px;  
-    margin-top: 0;    
-}
-
-.h3-opiniones{
-    color: white;
-    text-align: center;
   
-   
+  
+.list-group-item {
+    background-color: rgba(0, 29, 61, 0.8549019608);
 }
 
+  
 .content {
     grid-area: content;
     grid-column-start: 1;
     grid-row-start: 1;
-   
 }
+  
 
-.contenedor-maps{
-    display: flex;
-    color: #f2e9e4;
-    height:500px;
-    flex-direction: column;
-    align-content: flex-end;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;    
-}
-
-
-
-.h3-opiniones{
-    background-color: #001d3d;
-}
-
-.opiniones{
+  
+  
+  
+.opiniones {
     grid-area: opiniones;
     background-color: #2c4561;
 }
+  
 
-.registro{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    color: #fff;  
-    height: 900px;   
-}
+  
 
-.registro p{
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-}
+  
 
-.boton-crearcuenta{
-    text-align: center;
-    margin-top: 1rem;
-    
-}
-
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    color: #fff;   
-}
-
-.button-formulario{
-    background-color: rgb(214, 218, 8);
-    padding: 3px 14px;
-    border-radius: 9px;
-    transition: 300ms;   
-}
-
-.button-formulario:hover{
-    transform: scale(0.7);
-}
-
-
-.contenedor-button{
-    display: flex;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    gap: 0.5rem;
-   
-}
-
-
-/***********************ESTRELLAS**********/
-.card-body{
-    display: flex;
-    flex-direction: column;
-}
-
-.row{
-    margin-right: 1rem;
-    margin-left: 1rem;
-    
-
-}
-
-
-/**********************FOOTER****************************/
-footer div{
-    background-color: #001d3d;
-    color: rgb(179, 200, 247);
-    font-style: italic;
-    font-size: small;
-}
-
-footer ul {
-    display: block;
-}
-
-
-
-footer a {
-    color: white;
-}
-
-span{
-    font-size: xx-small;
-    margin-top: 1px;
-    padding: 0;
-}
-
-footer{
-    grid-area: footer;
-}
-
-/******************************************/
-
-
-
-
+  

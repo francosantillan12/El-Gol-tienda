@@ -1,0 +1,80 @@
+.body-general {
+
+    .navbar {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-size: auto;
+        width: 100%;
+        z-index: 1000;
+        background-color: rgba(0, 29, 61, 0.8549019608);
+        max-width: 100%;
+        padding-right: 1rem;
+    }
+
+    background-color: rgba(0, 29, 61, 0.8549019608);
+
+    .bg-primary {
+        background-color: rgb(10, 18, 129);
+    }
+
+    .row {
+        margin-right: 1rem;
+        margin-left: 1rem;
+
+        .h1-center {
+            text-align: center;
+        }
+    }
+
+    .toggler-icon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+
+
+.navbar-brand img {
+    width: 70px;
+}
+
+
+
+.navbar-nav {
+    margin-right: 3rem;
+
+    .navbar-nav li {
+        text-align: center;
+    }
+}
+
+
+
+.navbar-collapse {
+    background-color: #052241;
+}
+
+
+
+.navbar-toggler {
+    display: flex;
+    align-items: left;
+    border-radius: px;
+    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity));
+}
+
+.navbar-toggler:checked+.collapse .tablas-talles {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.section-camisetas {
+    margin-top: 8rem;
+}
