@@ -115,6 +115,24 @@
   background-color: #001d3d;
 }
 
+footer {
+  background-color: #001d3d;
+  color: rgb(179, 200, 247);
+  font-style: italic;
+  font-size: small;
+}
+footer ul {
+  display: block;
+}
+footer a {
+  color: white;
+}
+footer span {
+  font-size: xx-small;
+  margin-top: 1px;
+  padding: 0;
+}
+
 .contenedor-maps {
   display: flex;
   color: #f2e9e4;
@@ -164,25 +182,6 @@
   flex-direction: column;
 }
 
-footer {
-  background-color: #001d3d;
-  color: rgb(179, 200, 247);
-  font-style: italic;
-  font-size: small;
-}
-footer ul {
-  display: block;
-}
-footer a {
-  color: white;
-}
-footer span {
-  font-size: xx-small;
-  margin-top: 1px;
-  padding: 0;
-}
-
-/*bootstrap*/
 .list-group-item {
   background-color: rgba(0, 29, 61, 0.8549019608);
 }
