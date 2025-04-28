@@ -20,23 +20,23 @@
     }
 
     .row {
-        margin-right: 1rem;
-        margin-left: 1rem;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
 
         .h1-center {
             text-align: center;
         }
     }
 
-    .toggler-icon {
-        display: inline-block;
-        vertical-align: middle;
-        width: 1.5rem;
-        height: 1.5rem;
-    }
+    
 }
 
-
+.toggler-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 .navbar-brand img {
     width: 70px;
@@ -47,7 +47,7 @@
 .navbar-nav {
     margin-right: 3rem;
 
-    .navbar-nav li {
+     li {
         text-align: center;
     }
 }
@@ -77,4 +77,19 @@
 
 .section-camisetas {
     margin-top: 8rem;
+}
+
+.contenedor-maps {
+    display: flex;
+    color: #f2e9e4;
+    height: 500px;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.body-info{
+    background-color: #052241;
 }

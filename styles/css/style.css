@@ -23,13 +23,14 @@
   background-color: rgb(10, 18, 129);
 }
 .body-general .row {
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
 }
 .body-general .row .h1-center {
   text-align: center;
 }
-.body-general .toggler-icon {
+
+.toggler-icon {
   display: inline-block;
   vertical-align: middle;
   width: 1.5rem;
@@ -43,7 +44,7 @@
 .navbar-nav {
   margin-right: 3rem;
 }
-.navbar-nav .navbar-nav li {
+.navbar-nav li {
   text-align: center;
 }
 
@@ -65,6 +66,21 @@
 
 .section-camisetas {
   margin-top: 8rem;
+}
+
+.contenedor-maps {
+  display: flex;
+  color: #f2e9e4;
+  height: 500px;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.body-info {
+  background-color: #052241;
 }
 
 .formulario .button-formulario {
@@ -115,35 +131,6 @@
   background-color: #001d3d;
 }
 
-footer {
-  background-color: #001d3d;
-  color: rgb(179, 200, 247);
-  font-style: italic;
-  font-size: small;
-}
-footer ul {
-  display: block;
-}
-footer a {
-  color: white;
-}
-footer span {
-  font-size: xx-small;
-  margin-top: 1px;
-  padding: 0;
-}
-
-.contenedor-maps {
-  display: flex;
-  color: #f2e9e4;
-  height: 500px;
-  flex-direction: column;
-  align-content: flex-end;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
 .formulario {
   display: flex;
   flex-direction: column;
@@ -180,6 +167,111 @@ footer span {
 .card-body {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  background-color: #001d3d;
+  color: rgb(253, 253, 253);
+  font-style: italic;
+  font-size: small;
+  max-width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+footer .text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  justify-content: center;
+}
+footer .container-footer {
+  display: block;
+}
+footer .container-footer li {
+  text-decoration: none;
+}
+footer .container-footer a {
+  color: white;
+}
+footer .container-footer span {
+  font-size: xx-small;
+  margin-top: 1px;
+  padding: 0;
+}
+
+.footer-bodynuevo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #001d3d;
+  text-decoration: none;
+  flex-direction: column;
+  max-width: 100%;
+}
+.footer-bodynuevo .footer-nuevo {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bodynuevo .footer-nuevo .div-icon {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.footer-bodynuevo .footer-nuevo .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.footer-bodynuevo .footer-nuevo .social-icon .icon-elem {
+  list-style: none;
+}
+.footer-bodynuevo .footer-nuevo .social-icon .icon-elem .icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+  max-width: 100%;
+}
+.footer-bodynuevo .footer-nuevo .social-icon .icon-elem .icon:hover {
+  transform: translateY(-10px);
+}
+.footer-bodynuevo .footer-nuevo .menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.footer-bodynuevo .footer-nuevo .menu .menu-elem {
+  list-style: none;
+}
+.footer-bodynuevo .footer-nuevo .menu .menu-elem .menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.75;
+  transition: 0.3s;
+  max-width: 100%;
+}
+.footer-bodynuevo .footer-nuevo .menu .menu-elem :hover {
+  opacity: 1;
 }
 
 .list-group-item {

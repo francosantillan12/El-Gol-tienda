@@ -6,12 +6,7 @@
 @import "./layout/forms";
 @import "./component/card";
 @import "./layout/footer.scss";
-
-
-
-
-
-
+//************************************************//
 
   
   
@@ -25,10 +20,7 @@
     grid-column-start: 1;
     grid-row-start: 1;
 }
-  
-
-  
-  
+   
   
 .opiniones {
     grid-area: opiniones;
@@ -40,4 +32,4 @@
 
   
 
-  
+//sass --watch styles/scss/main.scss styles/css/style.css//

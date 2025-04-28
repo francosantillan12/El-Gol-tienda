@@ -1,26 +1,144 @@
 footer {
+   // display: flex;//
     background-color: #001d3d;
-    color: rgb(179, 200, 247);
+    color: rgb(253, 253, 253);
     font-style: italic;
     font-size: small;
-
-    ul {
-        display: block;
-      }
-
-      a {
-        color: white;
-      } 
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    .text{
+      color: white;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      font-size: 20px;
+      justify-content: center;
       
-      span {
-        font-size: xx-small;
-        margin-top: 1px;
-        padding: 0;
-      }     
-      
-  }
+    }
+
   
- 
+    .container-footer{
+      //display: flex;//
+     // justify-content: center;
+      //width: 100%;
+      
+
+   // ul {
+        display: block;
+
+        li{
+          text-decoration: none;
+        }
+        a {
+          color: white;
+        } 
+     // }
+
+    span {
+      font-size: xx-small;
+      margin-top: 1px;
+      padding: 0;
+      }    
+    } 
+           
+}
+
+//************PIE DE PAGINA**********/
+
+
+  .footer-bodynuevo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    //min-height: 100vh;//
+    background-color: #001d3d;
+    text-decoration: none;
+    flex-direction: column;
+    max-width: 100%;
+
+    .footer-nuevo{
+      display: flex;
+      position: relative;
+      width: 100%;
+     // background-color: aliceblue;//
+      min-height: 100px;
+      margin-bottom: 1rem;
+      padding: 1rem 0.5rem;
+      justify-content: center;
+      align-items: center;
+
+    .div-icon{
+      display: flex;
+      justify-content: center;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+     
+      
+    .social-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 10px 5px;
+      flex-wrap: wrap;
+      max-width: 100%;
+
+      .icon-elem{
+        list-style: none;
+
+        .icon{
+          color: white;
+          font-size: 32px;
+          display: inline-block;
+          margin: 0 10px;
+          transition: 0.5s;
+          max-width: 100%;
+          }
+          .icon:hover{
+            transform: translateY(-10px);  
+        }
+      }
+    }
+    .menu{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+      margin: 10px 0;
+      flex-wrap: wrap;
+
+      .menu-elem{
+        list-style: none;
+
+        .menu-icon{
+          color: white;
+          font-size: 20px;
+          display: inline-block;
+          text-decoration: none;
+          margin: 5px 10px;
+          opacity: 0.75;
+          transition: 0.3s;
+          max-width: 100%;
+        }
+        :hover{
+          opacity: 1;
+        }
+      }
+      
+    }
+
+    }
+   
+  }
+
+
+
+
+
+
   
  
   
