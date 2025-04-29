@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -175,8 +176,6 @@ footer {
   font-style: italic;
   font-size: small;
   max-width: 100%;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 footer .text {
   color: white;
@@ -287,6 +286,34 @@ footer .container-footer span {
 .opiniones {
   grid-area: opiniones;
   background-color: #2c4561;
+}
+
+/* 📱 Mobile S (320px) y menores */
+@media (max-width: 375px) {
+  .social-icon {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: start;
+    padding: 0 0.5rem;
+  }
+  .icon {
+    font-size: 24px;
+    margin: 0 8px;
+  }
+  .footer-nuevo {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .menu-icon {
+    margin: 8px 0;
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

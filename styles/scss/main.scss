@@ -8,6 +8,7 @@
 @import "./layout/footer.scss";
 //************************************************//
 
+
   
   
 .list-group-item {
@@ -28,6 +29,38 @@
 }
   
 
+//****************************************************//
+/* 📱 Mobile S (320px) y menores */
+@media (max-width: 375px) {
+    .social-icon {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: start;
+      padding: 0 0.5rem;
+    }
+  
+    .icon {
+      font-size: 24px;
+      margin: 0 8px;
+    }
+  
+    .footer-nuevo {
+      flex-direction: column;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+  
+    .menu-icon {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+  }
   
 
   
