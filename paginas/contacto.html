@@ -2,257 +2,169 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
-    <link rel="stylesheet" href="../quartz.1/bootstrap.min.css">
-  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../styles/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="../quartz.1/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../styles/css/style.css" />
 </head>
 
 <body class="body-general">
-    <div class="container.fluid bg-primary">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="../index.html">
-                    <div class="logo">
-                        <img src="../img/logo.jpg"  alt=""></a>  
-                    </div>
+  <div class="container-fluid bg-primary">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="../index.html">
+          <div class="logo">
+            <img src="../img/logo.jpg" alt="" />
+          </div>
+        </a>
 
-                <div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button> 
-                </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">Inicio <span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./camisetas.html">Camisetas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../paginas/registro.html">Registrate</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link bg-warning btn" href="../paginas/login.html">Mi Cuenta</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./camisetas.html">Camisetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/registro.html">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-warning btn" href="../paginas/login.html">Mi Cuenta</a>
+            </li>
+          </ul>
         </div>
-
+      </nav>
     </div>
+  </div>
 
-    <div class="box content">
-            <main>
-                <section>
-                    <div class="contenedor-maps">
-                        <h2 class="h2-form">Donde nos encontramos</h2>
-                        <div class="maps">
-                            <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.442583632733!2d-58.44240812426012!3d-34.59296837295819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1742416367775!5m2!1ses!2sar"
-                            width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>  
-                        </div>
-                           
-                   </div>  
-                </section>
-              
-               <!--*********************FORMULARIO**********************-->        
-                    <div>    
-                    <form action="/Formularios/" method="post">
-                        <div class="formulario">
-                          <h2 class="h2-form">Contactate con nosotros</h2>
-                          <label for="Nombre">ingrese su nombre:</label>
-                          <input id="Nombre" type="text" placeholder="homero" required name="nombre">
-                         
-              
-                          <label for="Apellido"> ingrese su apellido:</label>
-                          <input id="Apellido" type="text" placeholder="simpson" required name="Apellido">
-                          
-              
-                          <label for="Usuario">ingrese su usuario:</form></label>
-                          <input id="Usuario" type="text" placeholder="ingrese su usuario" required name="Usuario">
-                              
-              
-                         
-                          <label for="email">ingrese su email:</label>
-                              <input id="email" type="email" placeholder="homero.simpson@gmai.com" name="email">
-                     
-                         
-                         
-                         <!-- <label for="Contraseña">ingrese su contraseña:</form></label>
-                          <input id="Contraseña" type="password" placeholder="contraseña" required name="Contraseña">
-                        -->
-              
-                          <label for="Comentario">Comentario:</label>
-                            
-                          <div class="textarea-formulario">
-                                <textarea cols="37" rows="9" id="Comentario" placeholder="Ingrese Comentario:"
-                                name="Comentario"></textarea>   
-                            </div>
-                        
-                        
-                          <label for="si">recibir info al mail</label>
-                          <input type="checkbox" id="si">
-              
-                          <label for="aca">recibir info al whatsapp</label>
-                          <input type="checkbox" id="si">
-              
-                            <div class="contenedor-button">
-                              <div>
-                                  <input class="btn btn-warning" type="submit" value="Enviar">
-                                  </div>
-                      
-                                  <div>
-                                      <input class="btn btn-warning" type="reset" value="limpiar">
-                                  </div>
-                      
-                                  <div>
-                                      <button class="btn btn-warning" type="submit">Tipo submit</button>
-                                  </div>      
-                                  
-                            </div>
-                         
-                    </div>
-                     
-                    </form>   
-                  
-                <div>
-            </main>
-    </div>
+  <div class="box content">
+    <main>
+      <section>
+        <div class="contenedor-maps">
+          <h2 class="h2-form">Donde nos encontramos</h2>
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.442583632733!2d-58.44240812426012!3d-34.59296837295819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1742416367775!5m2!1ses!2sar"
+              style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
 
-    
-    <div class="container mt-5 mb-4">
-        <div>
-            <hr>
-            <h2 class="h2-center">Opiniones de nuestros clientes:</h2>
-            <div class="row d-flex">
-                <div class="col-12 col-md-4 mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Una belleza</h5>
-                            <div class="estrellas mb-2">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                            </div>
-                            <p class="card-text">La verdad fue la primera vez que compre online una camiseta,
-                                una experiencia facil y bien guiada gracias a la atencion al cliente, respuestas rápidas
-                                y claras.
-                            </p>
-                        </div>
-                        <img src="../img/img 1 opiniones.jpg" class="card-img-top" alt="...">
+      <div>
+        <form action="/Formularios/" method="post">
+          <div class="formulario">
+            <h2 class="h2-form">Contactate con nosotros</h2>
 
-                    </div>
-                </div>
+            <label for="Nombre">Ingrese su nombre:</label>
+            <input id="Nombre" type="text" placeholder="homero" required name="nombre" />
 
-                <div class="col-12 col-md-4 mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Muy buena camiseta</h5>
-                            <div class="estrellas mb-2">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                            </div>
-                            <p class="card-text">La espera valió la pena! La expectativa que genera no saber que vas a
-                                encontrarte, la hace única! Seguro volveré a comprar! Excelente la atención</p>
-                            <img src="../img/img 2 opiniones.jpg" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                </div>
+            <label for="Apellido">Ingrese su apellido:</label>
+            <input id="Apellido" type="text" placeholder="simpson" required name="Apellido" />
 
-                <div class="col-12 col-md-4 mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Excelente camiseta</h5>
-                            <div class="estrellas mb-2">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                                <img src="../img/5 estrellas.svg" alt="">
-                            </div>
-                            <p class="card-text">Los detalle en la tela y el cuello es todo lo q está bien. La Nº 10 de
-                                AIMAR. Una locura de camiseta.
-                                La calidad de la camiseta es hermosa y premiun, comoda y fiel al talle. Muchas Gracias!</p>
-                            <img src="../img/img 1 opiniones.jpg" class="card-img-top" alt="...">
+            <label for="Usuario">Ingrese su usuario:</label>
+            <input id="Usuario" type="text" placeholder="ingrese su usuario" required name="Usuario" />
 
-                        </div>
-                    </div>
-                </div>
+            <label for="email">Ingrese su email:</label>
+            <input id="email" type="email" placeholder="homero.simpson@gmai.com" name="email" />
+
+            <label for="Comentario">Comentario:</label>
+            <div class="textarea-formulario">
+              <textarea cols="37" rows="9" id="Comentario" placeholder="Ingrese Comentario:" name="Comentario"></textarea>
             </div>
-        </div>
 
-    </div>
-           
-    <!--****************NUEVO FOOTER*******-->
-    <div class="footer-bodynuevo">
-        <div class="footer-nuevo">
-            <footer>
-    
-                <div class="div-icon">
-                    <ul class="social-icon">
-                        <li class="icon-elem">
-    
-                          <!--  <a href="" class="icon">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                            -->
-                            <a href="https://instagram.com/" class="icon"  target="_blank">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                            <a href="https://web.whatsapp.com/" class="icon"  target="_blank">
-                                <ion-icon name="logo-whatsapp"></ion-icon>
-                            </a>
-                            <a href="http://www.facebook.com" class="icon"  target="_blank">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                            <a href="mailto:elgoltienda@gmail.com" class="icon" target="_blank">
-                                <ion-icon name="mail-outline"></ion-icon>
-                            </a>
-                        </li>
-                    </ul>
-    
+            <label for="info-mail">Recibir info al mail</label>
+            <input type="checkbox" id="info-mail" />
+
+            <label for="info-wsp">Recibir info al whatsapp</label>
+            <input type="checkbox" id="info-wsp" />
+
+            <div class="contenedor-button">
+                <div>
+                  <input class="btn btn-warning" type="submit" value="Enviar" />
                 </div>
-    
-    
-                <ul class="menu">
-    
-                    <li class="menu-elem">
-                        <a href="" class="menu-icon">Inicio</a>
-                        <a href="" class="menu-icon">Equipo</a>
-                        <a href="" class="menu-icon">Contacto</a>
-                        <a href="" class="menu-icon">Video</a>
-                        <a href="" class="menu-icon">Sobre Nosotros</a>
-                    </li>
-    
-                </ul>
-                <p class="text">2025 / Todos los derechos reservados</p>
-            </footer>
+                <div>
+                  <input class="btn btn-warning" type="reset" value="Limpiar" />
+                </div>
+                <div>
+                  <input class="btn btn-warning" type="submit" value="Tipo submit" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <div class="container mt-5 mb-4">
+    <hr />
+    <h2 class="h2-center">Opiniones de nuestros clientes:</h2>
+    <div class="row d-flex">
+
+      <div class="col-12 col-md-4 mt-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Una belleza</h5>
+            <div class="estrellas mb-2">
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+            </div>
+            <p class="card-text">
+              La verdad fue la primera vez que compre online una camiseta,
+              una experiencia fácil y bien guiada gracias a la atención al cliente, respuestas rápidas y claras.
+            </p>
+          </div>
+          <img src="../img/img 1 opiniones.jpg" class="card-img-top" alt="..." />
         </div>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    
-    <!--***************Ionicons***********-->    
-    <script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
-    <script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+      </div>
 
-</body>
+      <div class="col-12 col-md-4 mt-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Muy buena camiseta</h5>
+            <div class="estrellas mb-2">
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+            </div>
+            <p class="card-text">
+              La espera valió la pena! La expectativa que genera no saber que vas a encontrarte, la hace única! Seguro volveré a comprar! Excelente la atención.
+            </p>
+            <img src="../img/img 2 opiniones.jpg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+      </div>
 
-</html>
+      <div class="col-12 col-md-4 mt-5">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Excelente camiseta</h5>
+            <div class="estrellas mb-2">
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+              <img src="../img/5 estrellas.svg" alt="" />
+            </div>
+            <p class="card-text">
+              Los detalles en la tela y el cuello es todo lo que está bien. La Nº 10 de AIMAR. Una locura de camiseta.
+              La calidad de la camiseta es

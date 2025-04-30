@@ -1,5 +1,4 @@
 
-
 .formulario {
     display: flex;
     flex-direction: column;
@@ -8,6 +7,7 @@
     align-items: center;
     flex-wrap: nowrap;
     color: #fff;
+    width: 95%;//
 
     .h2 {
         margin: 50px 100px;
@@ -15,7 +15,21 @@
         padding: 4px;
         margin-top: 0;
     }
+
+    input{
+        width: 95%;
+        margin-top: 2.5rem;
+    }
+
+    
 }
+
+.textarea-formulario #comentario{
+    display: flex;
+    width: 95%;
+    align-items: center;
+}
+
 
 
 .registro {
@@ -30,5 +44,5 @@
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
-  
-  
+//  
+//******************************//

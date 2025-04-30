@@ -23,8 +23,8 @@
   background-color: rgb(10, 18, 129);
 }
 .body-general .row {
-  margin-right: 0.1rem;
-  margin-left: 0.1rem;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 .body-general .row .h1-center {
   text-align: center;
@@ -139,12 +139,23 @@
   align-items: center;
   flex-wrap: nowrap;
   color: #fff;
+  width: 95%;
 }
 .formulario .h2 {
   margin: 50px 100px;
   border-radius: 10px;
   padding: 4px;
   margin-top: 0;
+}
+.formulario input {
+  width: 95%;
+  margin-top: 2.5rem;
+}
+
+.textarea-formulario #comentario {
+  display: flex;
+  width: 95%;
+  align-items: center;
 }
 
 .registro {
@@ -162,9 +173,6 @@
 
 .card-body {
   background-color: rgba(0, 29, 61, 0.8549019608);
-}
-
-.card-body {
   display: flex;
   flex-direction: column;
 }
@@ -299,6 +307,10 @@ footer .container-footer span {
 .cart-icon:hover {
   transform: scale(1.1);
   color: #ffd700;
+}
+
+element.style {
+  width: 95%;
 }
 
 .banner {
