@@ -2,5 +2,17 @@
     background-color: rgba(0, 29, 61, 0.8549019608);
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease; /* Suaviza la animación */
+
+
 }
+
+
+.card-body:hover {
+    transform: scale(1.1); /* Hace un zoom del 10% */
+}
+
+
+
+
 
