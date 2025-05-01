@@ -110,10 +110,6 @@
   margin-top: 1rem;
 }
 
-.carousel-item {
-  margin-top: 105px;
-}
-
 .h2-center {
   text-align: center;
 }
@@ -430,7 +426,6 @@ element.style {
 .container {
   margin-top: 150px;
   margin-bottom: 1.5rem;
-  display: flex;
 }
 
 .thumbnail-wrapper {
