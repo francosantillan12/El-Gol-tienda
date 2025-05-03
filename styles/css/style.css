@@ -145,6 +145,19 @@
   margin-bottom: 2rem;
   border-radius: 10px;
 }
+.formulario .textarea-formulario {
+  width: 90%;
+  text-align: center;
+}
+.formulario .textarea-formulario textarea {
+  width: 98%; /* Hace que el textarea ocupe todo el ancho del contenedor */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+  font-size: 16px;
+  resize: vertical; /* Permite redimensionar verticalmente */
+  margin-top: 2rem;
+}
 .formulario .contenedor-button {
   display: flex;
   margin-top: 1rem;
@@ -153,6 +166,18 @@
 }
 .formulario .contenedor-button .button-formulario:hover {
   transform: scale(0.7);
+}
+.formulario .div-checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.formulario .div-checkbox label {
+  margin-right: 10px;
+}
+.formulario .div-checkbox input {
+  margin-right: 15px;
 }
 
 .textarea-formulario #comentario {

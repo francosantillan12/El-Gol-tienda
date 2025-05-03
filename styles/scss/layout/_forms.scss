@@ -29,6 +29,22 @@
         
     }
 
+    .textarea-formulario{
+        width: 90%;
+        text-align: center;
+
+        textarea {
+            width: 98%; /* Hace que el textarea ocupe todo el ancho del contenedor */
+            padding:10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+            font-size: 16px;
+            resize: vertical; /* Permite redimensionar verticalmente */
+            margin-top: 2rem;
+          }
+    }
+
+
     .contenedor-button {
         display: flex;
         margin-top: 1rem;
@@ -40,6 +56,22 @@
         }
 
     }
+
+    .div-checkbox {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+      }
+      
+      .div-checkbox label {
+        margin-right: 10px;
+      }
+      
+      .div-checkbox input {
+        margin-right: 15px;
+      }
+      
 
     
 }
