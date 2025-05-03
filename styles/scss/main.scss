@@ -150,10 +150,20 @@ element.style{
 
 
 .container{
-  margin-top: 150px;
+  margin-top: 1.2rem;
   margin-bottom: 1.5rem;
   //display: flex;
+  padding: 2rem;
+
+  .tablas-talles{
+    display: flex;
+    width: 95%;
+   
+  .boton-compras{
+    gap: 5rem;
   }
+  }
+}
  
 
   .thumbnail-wrapper {
@@ -181,6 +191,8 @@ element.style{
     border-radius: 10px;
    
   }
+
+
 
 
   

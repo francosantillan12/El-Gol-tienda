@@ -204,6 +204,19 @@
   transform: scale(1.1); /* Hace un zoom del 10% */
 }
 
+/******* La imagen hace zoom al pasar el cursor 
+            Seccion card "index"******************/
+/* Elimina zoom general del card */
+.card {
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05); /* O el valor que prefieras */
+  z-index: 10; /* Para que no quede tapada si hay otros elementos cerca */
+}
+
+/***********************************************************/
 footer {
   background-color: #001d3d;
   color: rgb(253, 253, 253);
@@ -416,8 +429,16 @@ element.style {
   }
 }
 .container {
-  margin-top: 150px;
+  margin-top: 1.2rem;
   margin-bottom: 1.5rem;
+  padding: 2rem;
+}
+.container .tablas-talles {
+  display: flex;
+  width: 95%;
+}
+.container .tablas-talles .boton-compras {
+  gap: 5rem;
 }
 
 .thumbnail-wrapper {
