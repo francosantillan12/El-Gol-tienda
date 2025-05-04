@@ -1,6 +1,10 @@
 # El-Gol-tienda
 Este es mi proyecto en CoderHouse
-Es una web sobre ventas de camisetas de futbol, tiene su sección de "inicio", "contacto", "camisetas", "registrate" y "mi cuenta"
+Es una web sobre ventas de camisetas de futbol, tiene su sección de "index", "contacto", "camisetas", "registrate", "mi cuenta" y "compras"
 en "mi cuenta" abre una nueva pestaña en la cual se puede crear una cuenta nueva o seguir con "google"
-y en la seccion camisetas puse algunas pero todavia le falta desarrolar la "pestaña" para terminar la compra.
+A la seccion de "compras" por ahora se accede desde el index en la seccion de "productos destacados + gift card".
+
+
+usé Ionicons,ANIMACIONES AOS, y bootstraps
+
 

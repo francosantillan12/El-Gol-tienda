@@ -9,17 +9,12 @@
     flex-wrap: nowrap;
     color: #fff;
    
-   
-    
-
    .h2 {
         margin: 50px 100px;
         border-radius: 10px;
         padding: 4px;
         margin-top: 0;
     }
-
-    
 
     input{
         width: 92%;
@@ -34,16 +29,15 @@
         text-align: center;
 
         textarea {
-            width: 98%; /* Hace que el textarea ocupe todo el ancho del contenedor */
+            width: 98%; 
             padding:10px;
             border: 1px solid #ccc;
-            box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+            box-sizing: border-box; 
             font-size: 16px;
-            resize: vertical; /* Permite redimensionar verticalmente */
+            resize: vertical; 
             margin-top: 2rem;
           }
     }
-
 
     .contenedor-button {
         display: flex;
@@ -76,12 +70,14 @@
     
 }
 
+
+
+
 .textarea-formulario #comentario{
     display: flex;
     width: 95%;
     align-items: center;
 }
-
 
 
 .div-checkbox  {
@@ -117,5 +113,13 @@ margin-left: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
-//  
+
+.tablas-talles{
+
+    .row{
+        justify-content: center;
+        margin: 1rem;
+    }
+    
+}
 //******************************//

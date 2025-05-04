@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="../quartz.1/bootstrap.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/css/style.css">
 </head>
 
@@ -62,7 +61,7 @@
 
     <!-- **************************************Venta de productos**********************-->
 
-    <div data-aos="fade-up">
+    <div data-aos="flip-left">
         <div class="container mt-4" id="single-product">
             <div class="row rounded shadow-sm" >
                 <!-- Miniaturas (columna izquierda) -->
@@ -95,7 +94,6 @@
                 <div class="col-12 col-md-5 d-flex flex-column justify-content-center mt-4 mt-md-0">
                     <h1 class="product-title">Gift Card</h1>
                     <p>Regalá una Gift Card y dejá que elijan lo que más les guste.</p>
-                    <p class="product-price">$10.000</p>
                     <h6>Llevá 4 y pagá 3!</h6>
                     <p>Vas a poder aprovechar esta promoción en cualquier producto de la tienda.</p>
 
@@ -148,12 +146,7 @@
     </div>
     
 
-    
-    
-    
-    
-    
-    <div class="container mt-4">
+    <div class="container mt-4" data-aos="flip-left">
         <div class="row">
           <!-- Descripción: ocupa el ancho de miniaturas (col-2) + imagen principal (col-5) = col-7 -->
           <div class="col-12 col-md-12 offset-md-0">
@@ -250,6 +243,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+
+    <!--**********ANIMACIONES AOS***********-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     
     <!--***************Ionicons***********-->
     <script type="module" src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "> </script>
