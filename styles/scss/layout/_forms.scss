@@ -71,7 +71,17 @@
 }
 
 
-
+.content {
+    grid-area: content;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+   
+  
+.opiniones {
+    grid-area: opiniones;
+    background-color: #2c4561;
+}
 
 .textarea-formulario #comentario{
     display: flex;

@@ -1,208 +1,213 @@
 .body-general {
+  background-color: rgba(0, 29, 61, 0.8549019608);
 
-    .navbar {
-        display: flex;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background-size: auto;
-        width: 100%;
-        z-index: 1000;
-        background-color: rgba(0, 29, 61, 0.8549019608);
-        max-width: 100%;
-        padding-right: 1rem;
-    }
-
+  .navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: auto;
+    width: 100%;
+    z-index: 1000;
     background-color: rgba(0, 29, 61, 0.8549019608);
+    max-width: 100%;
+    padding-right: 1rem;
+  }
 
-    .bg-primary {
-        background-color: rgb(10, 18, 129);
-    }
+  .bg-primary {
+    // background-color: rgb(10, 18, 129);
+  }
 
-    .row {
-       // margin-right: 0rem;
-       // margin-left: 0 rem;
-        padding-right: 1px;
-        padding-left: 1px;
-       
-        .h1-center {
-            text-align: center;
-        }
-    }
+  .row {
+    // margin-right: 0rem;
+    // margin-left: 0 rem;
+    padding-right: 1px;
+    padding-left: 1px;
 
-    .lista-de-camisetas li{
-        transition: transform 1s ease;
-        width: 100%;  
+    .h1-center {
+      text-align: center;
     }
-    
-    .lista-de-camisetas li:hover {
+  }
+
+
+  .lista-de-camisetas {
+    li {
+      transition: transform 1s ease;
+      width: 100%;
+
+      &:hover {
         transform: scale(1.1);
-        display: block;
+      }
     }
-    
-    .collapse li a {
-        transition: transform 0.8s
-      
-    }
-    
-    .collapse li a:hover { 
-        transform: scale(1.3); /* Hace un zoom del 10% */
-        display: block;
-    }
-    
-}
+  }
 
-.toggler-icon {
+  .collapse li a {
+    transition: transform 0.8s;
+
+  }
+
+  .collapse li a:hover {
+    transform: scale(1.3);
+    /* Hace un zoom */
+  }
+
+  .toggler-icon {
     display: inline-block;
     vertical-align: middle;
     width: 1.5rem;
     height: 1.5rem;
+  }
+
 }
 
+
+
 .navbar-brand img {
-    width: 70px;
+  width: 70px;
 }
 
 
 
 .navbar-nav {
-    margin-right: 3rem;
+  margin-right: 3rem;
 
-     li {
-        text-align: center;
-    }
+  li {
+    text-align: center;
+  }
 }
 
 
 
 .navbar-collapse {
-    background-color: #052241;
+  background-color: #052241;
 }
 
 
 
 .navbar-toggler {
-    display: flex;
-    align-items: left;
-    border-radius: px;
-    background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity));
+  display: flex;
+  align-items: left;
+  border-radius: px;
+  background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity));
 }
 
 .navbar-toggler:checked+.collapse .tablas-talles {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .banner {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #2c4561;
-    padding: 10px 0;
-    margin-top: 30px;
-  
-    .banner-item {
-      text-align: center;
-      padding: 5px;
-      cursor: pointer;
-  
-      ion-icon {
-        font-size: 40px;
-        margin-bottom: 5px;
-        color: rgb(8, 8, 8);
-        transition: transform 0.3s ease;
-      }
-  
-      &:hover ion-icon {
-        animation: moveIcon 0.5s ease-in-out;
-      }
-  
-      p {
-        margin: 0;
-        font-size: 14px;
-        color: white;
-      }
-    }
-  
-    @media (max-width: 425px) {
-      flex-direction: column;
-      gap: 1rem;
-  
-      .banner-item {
-        padding: 10px 0;
-      }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #2c4561;
+  padding: 10px 0;
+  margin-top: 30px;
+
+  .banner-item {
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+
+    ion-icon {
+      font-size: 40px;
+      margin-bottom: 5px;
+      color: rgb(8, 8, 8);
+      transition: transform 0.3s ease;
     }
 
-    
-  
-    @keyframes moveIcon {
-      0% {
-        transform: translateY(px);
-      }
-      50% {
-        transform: translateY(10px);
-      }
-      100% {
-        transform: translateY(0px);
-      }
+    &:hover ion-icon {
+      animation: moveIcon 0.5s ease-in-out;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: white;
     }
   }
-  
-  
 
-.section-camisetas {
-    margin-top: 8rem;
+  @media (max-width: 425px) {
+    flex-direction: column;
+    gap: 1rem;
+
+    .banner-item {
+      padding: 10px 0;
+    }
+  }
+
+
+
+  @keyframes moveIcon {
+    0% {
+      transform: translateY(px);
+    }
+
+    50% {
+      transform: translateY(10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
 }
 
 
 
-.body-info{
-    background-color: #052241;
+.section-camisetas {
+  margin-top: 8rem;
+}
+
+
+
+.body-info {
+  background-color: #052241;
 }
 
 //***********************COMPRAS*************************//
 
-.container{
-    margin-top: 6.6rem;
-    margin-bottom: 1.5rem;
-    //display: flex;
-   // padding: 2rem;
-  
-    .tablas-talles{
-      display: flex;
-      width: 95%;
-     
-    .boton-compras{
+.container {
+  margin-top: 6.6rem;
+  margin-bottom: 1.5rem;
+  //display: flex;
+  // padding: 2rem;
+
+  .tablas-talles {
+    display: flex;
+    width: 95%;
+
+    .boton-compras {
       gap: 5rem;
     }
-    }
   }
-   
-  
-    .thumbnail-wrapper {
-      width: 100%;
-    }
-    
-    .thumbnail-img {
-      width: 100%;
-      height: auto;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: border 0.2s ease;
-      border: 2px solid transparent;
-      
-    }
-    
-    .thumbnail-img:hover {
-      border-color: #ffc107; /* Amarillo Bootstrap */
-    }
-    
-    .main-img {
-      max-width: 100%;
-      max-height: 800px;
-      object-fit: contain;
-      border-radius: 10px;
-     
-    }
-  
+}
+
+
+.thumbnail-wrapper {
+  width: 100%;
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: border 0.2s ease;
+  border: 2px solid transparent;
+
+}
+
+.thumbnail-img:hover {
+  border-color: #ffc107;
+  /* Amarillo Bootstrap */
+}
+
+.main-img {
+  max-width: 100%;
+  max-height: 800px;
+  object-fit: contain;
+  border-radius: 10px;
+
+}
