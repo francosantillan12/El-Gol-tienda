@@ -1,5 +1,6 @@
 .body-general {
   background-color: rgba(0, 29, 61, 0.8549019608);
+  overflow-x: hidden; //para que todo lo que se escapa del eje x no se tenga en cuenta!
 
   .navbar {
     display: flex;
@@ -11,18 +12,14 @@
     z-index: 1000;
     background-color: rgba(0, 29, 61, 0.8549019608);
     max-width: 100%;
-    padding-right: 1rem;
-  }
-
-  .bg-primary {
-    // background-color: rgb(10, 18, 129);
+    padding-right: 0.2rem;
+ 
   }
 
   .row {
-    // margin-right: 0rem;
-    // margin-left: 0 rem;
-    padding-right: 1px;
-    padding-left: 1px;
+   padding-right: 0.1rem;
+   padding-left: 0.1rem;
+  
 
     .h1-center {
       text-align: center;
@@ -41,6 +38,10 @@
     }
   }
 
+  .navbar-collapse {
+    background-color: #052241;
+  }
+  
   .collapse li a {
     transition: transform 0.8s;
 
@@ -211,3 +212,45 @@
   border-radius: 10px;
 
 }
+
+@media (min-width: 425px){
+  .thumbnail-wrapper {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 768px){
+  
+    
+    .product-title{
+      margin-top: 1rem;
+    }
+
+
+}
+
+
+@media (min-width: 1440px){
+    .container-izq{
+     
+      .product-title{
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      .tablas-talles{
+        margin-bottom: 2rem;
+      }
+      .btn{
+       
+        margin-bottom: 3rem;
+      }
+      p{
+        margin-top: 1rem
+      };
+  }
+}
+
+

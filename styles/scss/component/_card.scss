@@ -8,9 +8,7 @@
 }
 
 
-.card-body:hover {
-    transform: scale(1.1); /* Hace un zoom del 10% */
-}
+
 
 
 /******* La imagen hace zoom al pasar el cursor 
@@ -21,7 +19,7 @@
   }
   
   .card:hover {
-    transform: scale(1.05); /* O el valor que prefieras */
+    transform: scale(1.05); /* el valor que yo prefiera */
     z-index: 10; /* Para que no quede tapada si hay otros elementos cerca */
   }
   

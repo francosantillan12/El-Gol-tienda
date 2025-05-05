@@ -7,6 +7,7 @@
 
 .body-general {
   background-color: rgba(0, 29, 61, 0.8549019608);
+  overflow-x: hidden;
 }
 .body-general .navbar {
   display: flex;
@@ -18,11 +19,11 @@
   z-index: 1000;
   background-color: rgba(0, 29, 61, 0.8549019608);
   max-width: 100%;
-  padding-right: 1rem;
+  padding-right: 0.2rem;
 }
 .body-general .row {
-  padding-right: 1px;
-  padding-left: 1px;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
 }
 .body-general .row .h1-center {
   text-align: center;
@@ -33,6 +34,9 @@
 }
 .body-general .lista-de-camisetas li:hover {
   transform: scale(1.1);
+}
+.body-general .navbar-collapse {
+  background-color: #052241;
 }
 .body-general .collapse li a {
   transition: transform 0.8s;
@@ -168,6 +172,33 @@
   border-radius: 10px;
 }
 
+@media (min-width: 425px) {
+  .thumbnail-wrapper {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .product-title {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1440px) {
+  .container-izq .product-title {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .container-izq .tablas-talles {
+    margin-bottom: 2rem;
+  }
+  .container-izq .btn {
+    margin-bottom: 3rem;
+  }
+  .container-izq p {
+    margin-top: 1rem;
+  }
+}
 .button-formulario {
   background-color: rgb(214, 218, 8);
   padding: 3px 14px;
@@ -318,10 +349,6 @@
   transition: transform 0.3s ease; /* Suaviza la animación */
 }
 
-.card-body:hover {
-  transform: scale(1.1); /* Hace un zoom del 10% */
-}
-
 /******* La imagen hace zoom al pasar el cursor 
             Seccion card "index"******************/
 /* Elimina zoom general del card */
@@ -330,14 +357,13 @@
 }
 
 .card:hover {
-  transform: scale(1.05); /* O el valor que prefieras */
+  transform: scale(1.05); /* el valor que yo prefiera */
   z-index: 10; /* Para que no quede tapada si hay otros elementos cerca */
 }
 
 /***********************************************************/
 footer {
   background-color: #001d3d;
-  color: rgb(253, 253, 253);
   font-style: italic;
   font-size: small;
   max-width: 100%;
@@ -358,11 +384,6 @@ footer .container-footer li {
 }
 footer .container-footer a {
   color: white;
-}
-footer .container-footer span {
-  font-size: xx-small;
-  margin-top: 1px;
-  padding: 0;
 }
 
 .footer-bodynuevo {
@@ -390,7 +411,7 @@ footer .container-footer span {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.footer-bodynuevo .footer-nuevo .social-icon {
+.footer-bodynuevo .footer-nuevo .div-icon .social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -399,10 +420,10 @@ footer .container-footer span {
   flex-wrap: wrap;
   max-width: 100%;
 }
-.footer-bodynuevo .footer-nuevo .social-icon .icon-elem {
+.footer-bodynuevo .footer-nuevo .div-icon .social-icon .icon-elem {
   list-style: none;
 }
-.footer-bodynuevo .footer-nuevo .social-icon .icon-elem .icon {
+.footer-bodynuevo .footer-nuevo .div-icon .social-icon .icon-elem .icon {
   color: white;
   font-size: 32px;
   display: inline-block;
@@ -410,7 +431,7 @@ footer .container-footer span {
   transition: 0.5s;
   max-width: 100%;
 }
-.footer-bodynuevo .footer-nuevo .social-icon .icon-elem .icon:hover {
+.footer-bodynuevo .footer-nuevo .div-icon .social-icon .icon-elem .icon:hover {
   transform: translateY(-10px);
 }
 .footer-bodynuevo .footer-nuevo .menu {
@@ -438,7 +459,6 @@ footer .container-footer span {
   opacity: 1;
 }
 
-/*  Mobile S (320px) y menores */
 @media (max-width: 375px) {
   .social-icon {
     flex-wrap: nowrap;

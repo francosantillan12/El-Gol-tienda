@@ -1,7 +1,6 @@
 footer {
   // display: flex;//
    background-color: #001d3d;
-   color: rgb(253, 253, 253);
    font-style: italic;
    font-size: small;
    max-width: 100%;
@@ -36,16 +35,12 @@ footer {
        } 
     // }
 
-   span {
-     font-size: xx-small;
-     margin-top: 1px;
-     padding: 0;
-     }    
+  
    } 
           
 }
 
-//************PIE DE PAGINA**********/
+//************FOOTER NUEVO PAGINA**********/
 
 
  .footer-bodynuevo{
@@ -74,34 +69,34 @@ footer {
      justify-content: center;
      margin-left: 1rem;
      margin-right: 1rem;
+
+     .social-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 10px 5px;
+      flex-wrap: wrap;
+      max-width: 100%;
+ 
+      .icon-elem{
+        list-style: none;
+ 
+        .icon{
+          color: white;
+          font-size: 32px;
+          display: inline-block;
+          margin: 0 10px;
+          transition: 0.5s;
+          max-width: 100%;
+          }
+          .icon:hover{
+            transform: translateY(-10px);  
+        }
+      }
+    }
    }
-    
      
-   .social-icon{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     margin: 10px 5px;
-     flex-wrap: wrap;
-     max-width: 100%;
-
-     .icon-elem{
-       list-style: none;
-
-       .icon{
-         color: white;
-         font-size: 32px;
-         display: inline-block;
-         margin: 0 10px;
-         transition: 0.5s;
-         max-width: 100%;
-         }
-         .icon:hover{
-           transform: translateY(-10px);  
-       }
-     }
-   }
    .menu{
      display: flex;
      justify-content: center;
@@ -135,7 +130,6 @@ footer {
  }
 
 
- /*  Mobile S (320px) y menores */
 @media (max-width: 375px) {
   .social-icon {
     flex-wrap: nowrap;
