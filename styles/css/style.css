@@ -138,6 +138,7 @@
 .container {
   margin-top: 6.6rem;
   margin-bottom: 1.5rem;
+  margin-left: rem;
 }
 .container .tablas-talles {
   display: flex;
@@ -179,12 +180,16 @@
     margin-bottom: 3rem;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .product-title {
+    text-align: center;
     margin-top: 1rem;
   }
 }
 @media (min-width: 1440px) {
+  .container-izq .card-imgprincipal {
+    margin-right: 500rem;
+  }
   .container-izq .product-title {
     margin-top: 2rem;
     margin-bottom: 3rem;
