@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../quartz.1/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/css/style.css">
+</head>
+
+<body class="body-general">
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="../index.html">
+                    <div>
+                        <img src="../img/logo.jpg" alt="">
+                    </div>
+                </a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Inicio <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/camisetas.html">Camisetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/registro.html">Registrate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-warning btn" href="../paginas/login.html">Mi Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <!-- Sección de imágenes -->
+        <div class="image-section">
+            <div class="thumbnail-container">
+                <img src="../img/jamaica/jamaica 2.webp" alt="Vista 1" class="thumbnail">
+                <img src="../img/jamaica/jamaica 3.webp" alt="Vista 2" class="thumbnail">
+                <img src="../img/jamaica/jamaica 4.webp" alt="Vista 3" class="thumbnail">
+                <img src="../img/jamaica/jamaica 5.webp" alt="Vista 4" class="thumbnail">
+            </div>
+            <div class="main-image">
+                <img src="../img/jamaica/jamaica 1.webp" alt="Imagen principal">
+            </div>
+        </div>
+
+        <!-- Detalles del producto -->
+        <div class="details-section">
+            <h1>Camiseta de Jamaica</h1>
+            <p>Espectacular camiseta.</p>
+            <h6>Hasta 6 cuotas sin interés!</h6>
+            <p>Vas a poder aprovechar esta promoción en cualquier producto de la tienda.</p>
+
+            <!-- Selector de monto -->
+            <label for="monto">Precio:</label>
+            <select id="monto">
+                <option value="89999">$89999</option>   
+            </select>
+
+            <!-- Selector de cantidad -->
+            <label for="cantidad">Cantidad:</label>
+            <select id="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <!-- Botón de compra -->
+            <button class="buy-button">Finalizar Compra</button>
+
+            <!-- Información adicional -->
+            <div class="info">
+                <p>Compra protegida</p>
+                <p>Tus datos cuidados durante toda la compra.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer-bodynuevo">
+        <div class="footer-nuevo">
+            <footer>
+                <div class="div-icon">
+                    <ul class="social-icon">
+                        <li class="icon-elem">
+                            <a href="https://instagram.com/" class="icon" target="_blank">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="https://web.whatsapp.com/" class="icon" target="_blank">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </a>
+                            <a href="http://www.facebook.com" class="icon" target="_blank">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="mailto:elgoltienda@gmail.com" class="icon" target="_blank">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="menu">
+                    <li class="menu-elem">
+                        <a href="" class="menu-icon">Inicio</a>
+                        <a href="" class="menu-icon">Equipo</a>
+                        <a href="" class="menu-icon">Contacto</a>
+                        <a href="" class="menu-icon">Video</a>
+                        <a href="" class="menu-icon">Sobre Nosotros</a>
+                    </li>
+                </ul>
+
+                <p class="text">2025 / Todos los derechos reservados</p>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <!--***************Ionicons***********-->
+    <script type="module" src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js "> </script>
+    <script nomodule src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+    <!--**********ANIMACIONES**********-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
