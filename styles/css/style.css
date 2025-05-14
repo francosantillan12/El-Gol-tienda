@@ -25,7 +25,7 @@
   padding-right: 0.1rem;
   padding-left: 0.1rem;
 }
-.body-general .row .h1-center {
+.body-general .row h1 {
   text-align: center;
 }
 .body-general .lista-de-camisetas li {
@@ -227,6 +227,10 @@
   margin-top: 1rem;
 }
 
+.carousel-inner img {
+  width: 100%;
+}
+
 .h2-center {
   text-align: center;
 }
@@ -239,7 +243,7 @@
 
 .formulario {
   display: flex;
-  height: 80rem;
+  height: 90rem;
   flex-direction: column;
   align-content: flex-end;
   justify-content: center;
@@ -254,17 +258,33 @@
   margin-top: 0;
 }
 .formulario input {
-  width: 92%;
   margin-top: 2.5rem;
   margin-bottom: 2rem;
   border-radius: 10px;
+  padding: 8px;
+}
+.formulario .datosdeformulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.formulario .datosdeformulario label {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 425px) {
+  .formulario .datosdeformulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
 }
 .formulario .textarea-formulario {
   width: 90%;
   text-align: center;
 }
 .formulario .textarea-formulario textarea {
-  width: 98%;
+  width: 80%;
   padding: 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -272,25 +292,29 @@
   resize: vertical;
   margin-top: 2rem;
 }
-.formulario .contenedor-button {
+
+.contenedor-button {
   display: flex;
   margin-top: 1rem;
   margin-bottom: 5rem;
   gap: 0.5rem;
 }
-.formulario .contenedor-button .button-formulario:hover {
+.contenedor-button .button-formulario:hover {
   transform: scale(0.7);
 }
-.formulario .div-checkbox {
+
+.div-checkbox {
   display: flex;
   flex-direction: row;
   gap: 20px;
   align-items: center;
 }
-.formulario .div-checkbox label {
+
+.div-checkbox label {
   margin-right: 10px;
 }
-.formulario .div-checkbox input {
+
+.div-checkbox input {
   margin-right: 15px;
 }
 
