@@ -7,8 +7,33 @@ A la seccion de "compras" por ahora se accede desde el index en la seccion de "p
 
 La seccion de "comprar" en la pestaña de "camisetas" tiene algunos avances, aun falta desarrolar.
 
+## 🛠 Tecnologías utilizadas
+
+- 💻 HTML5
+- 🎨 SCSS (Sass)
+- 📐 CSS Grid y Flexbox
+- 📱 Diseño responsive con media queries
+
 ## librerias utilizadas
 -Ionicons
 -Animaciones AOS
 -Bootstraps
+
+## 🎯 Funcionalidades
+
+- Página de inicio con promociones destacadas
+- Página de productos (camisetas)
+- Sección de contacto
+- Diseño responsive para celulares, tablets y desktop
+- Estilos modulares siguiendo metodología Sass 7-1
+
+
+## futuras mejoras
+
+-Implementar carrito de compras con JavaScript
+-Agregar pasarela de pago simulada
+
+
+📬 Contacto
+📧 francosantillan12@gmail.com
 
